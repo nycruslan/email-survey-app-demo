@@ -12,8 +12,9 @@ const Landing = () => {
 				justifyContent: 'center',
 			}}
 		>
-			<Typography variant='h1'>Emaily!</Typography>
-			<Typography variant='h4'>Collect feedback from your users</Typography>
+			<Typography variant='h1'>Emailer!</Typography>
+			<Typography variant='h3'>Email Survey Service.</Typography>
+			<Typography variant='h4'>Collect feedback from your users:)</Typography>
 		</div>
 	);
 };

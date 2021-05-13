@@ -39,14 +39,14 @@ class Header extends Component {
 					<Toolbar>
 						<Tab
 							style={{ marginRight: 'auto' }}
-							label='Emaily'
+							label='Emailer'
 							component={Link}
 							to={this.props.auth ? '/surveys' : '/'}
 						/>
 						{this.renderContent()}
 					</Toolbar>
 				</AppBar>
-				<Toolbar />
+				<Toolbar style={{ marginBottom: '1rem' }} />
 			</div>
 		);
 	}
